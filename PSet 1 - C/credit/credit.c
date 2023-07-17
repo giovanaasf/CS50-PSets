@@ -18,6 +18,7 @@ int main(void)
     int result = 0;
     int digits = 0;
 
+
     long card = get_long("Number: ");
     long cash = card;
 
@@ -34,7 +35,7 @@ int main(void)
     //master = 3
     if (digits == 13)
     {
-        firsts = card / 100000000000;
+        firsts = card / 1000000000000;
         if (firsts == VISA)
         {
             bank = 1;
@@ -66,6 +67,10 @@ int main(void)
     if (bank != 0)
     {
         result = Luhns(card);
+    }
+    else
+    {
+        printf("INVALID\n");
     }
 
     if (result == 0)
