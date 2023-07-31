@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: "sort1" took less time than "sort3," but more time than "sort2" in pre-sorted .txt files.
+
+sort2 uses: merge sort
+
+How do you know?: "sort2" took a considerably shorter time than "sort1" and "sort3" in the .txt that were already sorted.
+
+sort3 uses: selection sort
+
+How do you know?: "sort2" took more time than "sort1" and "sort3" in pre-sorted .txt files.
